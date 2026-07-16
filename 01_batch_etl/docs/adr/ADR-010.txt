@@ -1,0 +1,10 @@
+Decision:
+Organize the Presentation Layer by execution mechanism (CLI, Airflow, Lambda, API, Step Functions).
+
+Reasoning:
+
+Each adapter has a single responsibility.
+Clear ownership boundaries.
+Supports future growth without restructuring.
+Keeps business logic out of the entry points.
+Mirrors ports-and-adapters (Hexagonal) architecture.

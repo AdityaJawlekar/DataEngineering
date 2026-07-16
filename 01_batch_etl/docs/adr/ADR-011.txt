@@ -1,0 +1,9 @@
+Decision: Organize the Application layer by business domain, then by feature.
+
+Reasoning:
+
+Aligns with business capabilities rather than technical types.
+Improves team ownership.
+Keeps related workflows together.
+Makes navigation intuitive as the platform grows.
+Scales naturally when new domains (Customers, Products, Payments, Inventory) are added.
