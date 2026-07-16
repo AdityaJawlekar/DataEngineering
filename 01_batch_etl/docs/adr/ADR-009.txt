@@ -1,0 +1,10 @@
+Decision:
+
+Keep Dockerfile and docker-compose.yml at the project root.
+Store Docker-related helper assets under docker/.
+
+Reasoning:
+
+Follows Docker and CI/CD conventions.
+Supports docker build . and docker compose up without additional flags.
+Keeps the root as the project's entry point while allowing Docker assets to grow cleanly.

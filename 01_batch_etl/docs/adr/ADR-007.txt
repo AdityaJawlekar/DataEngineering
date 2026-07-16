@@ -1,0 +1,20 @@
+ADR-007: Shared Module Strategy
+
+Decision: We will not create a top-level shared/ or common/ directory at the start of the project.
+
+Context:
+
+We only have one project today.
+We don't yet know what code will truly be reusable.
+Premature abstraction increases complexity.
+
+Decision:
+
+Each project owns its own code.
+If a piece of code is reused across multiple projects (following the Rule of Three), we'll extract it into a shared package.
+
+Consequences:
+
+Simpler project structure.
+Lower coupling.
+Reuse based on evidence rather than speculation.

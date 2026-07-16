@@ -1,0 +1,7 @@
+| Item             | Decision                                                                                                                         |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Project 1**    | Timestamp Watermark                                                                                                              |
+| **Reason**       | Learn incremental loading fundamentals by implementing watermark management, checkpointing, idempotency, and recovery ourselves. |
+| **Alternative**  | CDC                                                                                                                              |
+| **Why Not Yet?** | It abstracts away core concepts we want to master first.                                                                         |
+| **Future Plan**  | Replace watermarking with CDC in Project 2 and compare both approaches.                                                          |

@@ -1,0 +1,30 @@
+Title:
+Choose PostgreSQL as the Source System
+
+Status:
+Accepted
+
+Context:
+The project requires a realistic OLTP system to simulate an e-commerce application.
+
+Decision:
+Use PostgreSQL as the primary source system.
+
+Alternatives:
+- MySQL
+- CSV Files
+- SQLite
+
+Reason:
+- Supports relational modeling
+- Enables future CDC implementation
+- Widely used in production
+- Easy to run locally with Docker
+
+Consequences:
+Positive:
+- Realistic production simulation
+- Supports incremental loads and CDC
+
+Negative:
+- Slightly more operational overhead than CSV

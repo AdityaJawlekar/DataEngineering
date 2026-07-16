@@ -1,0 +1,9 @@
+Decision: Build a configuration-driven ingestion framework instead of a table-specific ETL pipeline.
+
+Benefits:
+
+Reusable for multiple tables.
+Easier onboarding of new datasets.
+Less duplicated code.
+Better demonstration of senior engineering skills.
+Stronger portfolio project.
